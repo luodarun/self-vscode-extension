@@ -1,0 +1,69 @@
+{
+    "vue3InitSetup": {
+        "prefix": "vue3InitSetup",
+        "body": [
+            "<template>",
+            "\t<div$2>",
+            "\t\t$1",
+            "\t</div>",
+            "</template>",
+            "<script setup lang=\"ts\">",
+            "\t$3",
+            "</script>",
+            "<style lang=\"scss\" scoped>",
+            "\t$4",
+            "</style>"
+        ],
+        "description": "vue init template script style with scoped"
+    },
+    "vueInit": {
+        "prefix": "vueInitScoped",
+        "body": [
+            "<template>",
+            "\t<div$2>",
+            "\t\t$1",
+            "\t</div>",
+            "</template>",
+            "<script>",
+            "export default {",
+            "\tname:\"$3\"",
+            "}",
+            "</script>",
+            "<style lang=\"$4\" scoped>",
+            "\t$5",
+            "</style>"
+        ],
+        "description": "vue init template script style with scoped"
+    },
+    "templateLang": {
+        "prefix": "templateLang",
+        "body": [
+            "<template lang=\"$1\">",
+            "\t<div$2>",
+            "\t\t$0",
+            "\t</div>",
+            "</template>"
+        ],
+        "description": "template element"
+    },
+    "script": {
+        "prefix": "script",
+        "body": [
+            "<script>",
+            "export default {",
+            "\t$0",
+            "}",
+            "</script>"
+        ],
+        "description": "script element"
+    },
+    "styleLang": {
+        "prefix": "styleLang",
+        "body": [
+            "<style lang=\"$1\">",
+            "\t$0",
+            "</style>"
+        ],
+        "description": "style element with lang attribute"
+    }
+}

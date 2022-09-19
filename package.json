@@ -1,0 +1,61 @@
+{
+    "name": "self-vscode-extension",
+    "displayName": "self-vscode-extension",
+    "description": "自给自足",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.71.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "vue",
+                "aliases": [
+                    "Vue",
+                    "vue"
+                ],
+                "extensions": [
+                    ".vue"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/javascript.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/vue.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/javascript.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/html.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.code-snippets"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/pug.code-snippets"
+            }
+        ]
+    }
+}
